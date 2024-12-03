@@ -1,0 +1,24 @@
+.Footer{
+    margin-top: 163%;
+     color: white;
+     background-color: rgb(50, 47, 47);
+     padding-top: 40px;
+     padding-left: 100px;
+ }
+ 
+ .para{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .policy{
+ 
+     background-color:rgb(60, 65, 59);
+     height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+ 
+ }

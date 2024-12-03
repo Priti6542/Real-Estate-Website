@@ -1,0 +1,92 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(41, 40, 40, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: rgb(246, 241, 241);
+  font-size: 18px;
+  height: 350px;
+  width: 600px;
+  
+}
+
+.header{
+
+  background-image: linear-gradient(rgb(244, 222, 161),rgb(235, 221, 153));
+  height: 50px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin-top: -50px;
+  padding-left: 30px;
+  font-size: larger;
+}
+
+.image img{
+  width: 295px;
+  float: left;
+}
+
+input[type="text"]{
+
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 30px;
+  margin-right: 50px;
+  height: 40px;
+  width: 200px;
+  border-radius:10px;
+  
+}
+
+input[type="email"] {
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 100px;
+  height: 40px;
+  width: 200px;
+  border-radius:10px;
+
+}
+
+input[type="tel"] {
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 170px;
+  height: 40px;
+  width: 200px;
+  border-radius:10px;
+
+}
+
+.button{
+  margin-top: 40%;
+  margin-left: 59%;
+}
+.submitButton{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(237, 177, 64);
+}
+
+.closeButton{
+  color: rgb(109, 108, 108);
+  float: right;
+  background-color: transparent;
+  border: none;
+  margin-top: -40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.closeButton:hover{
+  color: black;
+}

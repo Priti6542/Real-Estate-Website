@@ -1,0 +1,163 @@
+.Video {
+  background-color: rgb(204, 179, 151);
+  height: 930px;
+  padding: 10px;
+  position: relative; /* For positioning the arrows outside the .Card */
+}
+
+.Card {
+  position: relative; /* Keep relative positioning for the .Card */
+  width: 100%;
+  max-width: 800px;
+  padding-top: 20px;
+  margin: auto;
+  overflow: hidden; /* Hide overflow to create sliding effect */
+}
+
+.Card h1 {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 2rem; /* Adjust font size for responsiveness */
+  font-weight: normal;
+  text-align: center; /* Center align for better appearance */
+}
+
+.mediaContainer {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Add transition for sliding */
+  height: 600px;
+  overflow: hidden; /* Hide overflow to create sliding effect */
+}
+
+.mediaElement {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensure proper scaling */
+}
+
+/* Position the arrows outside the .Card container */
+.arrow {
+  position: absolute; /* Position them relative to the .Video section */
+  top: 60%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure the arrows stay on top */
+  opacity: 0.75;
+  transition: opacity 0.3s ease;
+}
+
+.arrow:hover {
+  opacity: 1;
+}
+
+/* Adjust positioning of arrows outside of the .Card */
+.prev {
+  left: -1px; /* Position the left arrow outside on the left side */
+}
+
+.next {
+  right: -1px; /* Position the right arrow outside on the right side */
+}
+
+/* Adjust the properties container */
+.properties {
+  background-color: rgb(241, 232, 221);
+  margin-top: 160px;
+  padding: 20px;
+  margin-left: -20px;
+  width: 99.84%;
+}
+
+.properties h1 {
+  color: rgb(79, 10, 10);
+  margin-left: 500px;
+  font-weight: normal;
+}
+
+.properties p {
+  color: rgb(79, 10, 10);
+  margin-left: 600px;
+}
+
+.text {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .Card h1 {
+    font-size: 2.5rem;
+  }
+
+  .mediaContainer {
+    height: 500px;
+  }
+
+  .text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Card h1 {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
+  .mediaContainer {
+    height: 400px;
+  }
+
+  .arrow {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .text {
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .properties {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Card h1 {
+    font-size: 1.5rem;
+  }
+
+  .mediaContainer {
+    height: 300px;
+  }
+
+  .arrow {
+    font-size: 18px;
+    padding: 6px;
+  }
+
+  .text {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .properties {
+    margin-top: 80px;
+    padding: 10px;
+  }
+}

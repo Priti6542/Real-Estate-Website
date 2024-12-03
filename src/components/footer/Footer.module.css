@@ -1,0 +1,77 @@
+.Footer {
+    margin-top: 10px;
+    background-color: rgb(72, 69, 69);
+    color: white;
+    padding: 40px 0; /* Adds some vertical padding for spacing */
+    text-align: center; /* Centers the text and content inside the footer */
+}
+
+/* General styling for footer text */
+.text, .para, .call, .image {
+    padding-left: 100px; /* Reduces padding to make it more flexible */
+    padding-right: 20px; /* Adds some right padding for balance */
+    margin: 10px 0; /* Adds some margin for spacing between elements */
+    text-align: left; /* Align text to the left for paragraphs and calls to action */
+}
+
+
+/* Optionally, adjust text for smaller screens */
+@media (max-width: 768px) {
+    .text, .para, .call, .image {
+        padding-left: 10px; /* Reduced padding for smaller screens */
+        padding-right: 10px; /* Matching right padding */
+        text-align: center; /* Center text on smaller screens */
+    }
+}
+
+/* Disclaimer */
+.Disclaimer {
+    display: flex;
+    justify-content: center; /* Centers content inside the disclaimer section */
+    padding-top: 20px;
+    font-size: 14px; /* Reduces font size */
+}
+
+/* Policy section */
+.policy {
+   
+    height: 10px;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 2px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px; /* Ensures the policy section text is a little smaller */
+}
+
+/* Image inside footer (adjust padding) */
+.image {
+    padding-left: 0; /* You can remove the padding if images are centered in the footer */
+    margin-top: 20px;
+}
+
+.image img {
+    padding-left: 100px;
+    max-width: 100px; /* Ensures the image is responsive */
+    height: auto;
+}
+.call i{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .call{
+    display: flex;
+ }
+ span{
+    font-size: 20px;
+    color:rgb(209, 163, 78);
+ }
+ 

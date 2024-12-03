@@ -1,0 +1,73 @@
+.Sidebar {
+  position: sticky;  
+  margin-top: 75px;           
+  top: 100px;                    
+  float: right;                     
+  width: 360px;                  
+  height: 650px;                 
+  background-color: rgb(55, 52, 52); 
+  box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.1); 
+  padding: 20px;                 
+  /* z-index: 1000;                 */
+  color: white;                
+  overflow-y: auto;  
+  margin-right: 70px;            
+  margin-bottom: 80px;
+
+}
+
+.formContainer{
+  margin-top: 10px;
+ 
+}
+
+.inputContainer input[type="text"],.phonContainer input[type="tel"],.emailContainer input[type="email"]  {
+    width: 330px;
+    height: 50px;
+    margin-left: 10px;
+    
+    
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: rgb(232, 171, 58);
+}
+
+.button{
+  padding-top: 260px;
+  padding-left: 10px;
+}
+
+.button button{
+  height: 45px;
+  width: 340px;
+  border-radius: 10px;
+  background-color: rgb(237, 181, 79);
+  cursor: pointer;
+}
+
+
+
+.number,.Property,.Location,.World{
+  background-color:rgb(220, 146, 43);
+  height: 45px;
+  width: 339px;
+  margin-left: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: animateElement 2s ease-in-out infinite;
+}
+.para{
+    font-size: 15px;
+}
+
+
+

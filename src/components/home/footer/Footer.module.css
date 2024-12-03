@@ -1,0 +1,52 @@
+
+.footer{
+    color: white;
+  
+    margin-top: 302px;
+    margin-left: -10px;
+    width: 100%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+.logo h3{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.disclaimer{
+    font-size: 10px;
+    margin-left: 200px;
+}
+span{
+    font-size: 30px;
+}
+
+.image img{
+    height: 90px;
+    width: 90px;
+    float: right;
+    margin-right: 260px;
+}
+
+.Copyright{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    border-top: 2px white solid;
+    padding-left: 150px;
+    gap: 10rem;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-left: 200px;
+    width: 1000px;
+}
+.copyright{
+    margin-left: -150px;
+}
+.sentence{
+    margin-left: 30%;
+}

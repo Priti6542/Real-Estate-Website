@@ -1,0 +1,76 @@
+.Layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 50px;
+  background-color: rgb(42, 56, 48);
+  height: 100vh;
+  
+}
+
+.Box {
+  background-color: rgb(47, 46, 46);
+  color: white;
+  width: 100%;  
+  display: flex;
+  border: 2px rgb(216, 177, 4) solid;
+
+  
+  
+}
+
+.image {
+  flex: 0 0 300px; 
+  margin-right: 20px;  
+}
+
+.image img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover; /* Ensures the image scales properly */
+}
+
+
+.name, .location, .type, .price {
+  margin-bottom: 10px; 
+}
+
+.name {
+  font-size: 25px;
+  background:linear-gradient(rgb(158, 140, 2),rgb(244, 227, 150));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  
+  
+}
+
+.location, .type, .price {
+  font-size: 15px;
+}
+
+
+.price{
+  float: right;
+  margin-right: 550px;
+  border-left: 2px white solid;
+  padding-left: 30px;
+}
+.type{
+  float: left; 
+  
+
+}
+
+.discount1{
+  
+  
+}
+
+.Button button{
+  height: 30px;
+  width: 500px;
+  margin-top: 10px;
+  background-image: linear-gradient(rgb(158, 110, 6),rgb(189, 161, 115));
+}
+
+
